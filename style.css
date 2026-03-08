@@ -1,0 +1,95 @@
+body{
+  background-color: black;
+  justify-content: center;
+}
+
+.container{
+  align-items: center;
+  margin-left: 10%;
+  width: 90%;
+  min-height: 90vh;
+}
+
+.b{
+  background-color: white;
+  text-align: center;
+  width: 950px;
+  height: 700px;
+  padding: 5px;
+  margin-left: 10%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px darkgrey;
+}
+
+#hd{
+  margin-top: 1.5%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border: 5px solid orange;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#trn{
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.container2{
+    margin-left: 33%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container3{
+    margin-left: 33%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container4{
+    margin-left: 33%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.box{
+     width: 90px;
+     height: 80px;
+     font-size:2.8rem;
+     font-weight: bold;
+     padding-top: 28px;
+     margin: 0.8%;
+     border: 2px solid rgb(187, 75, 5);
+     align-items: center;
+     text-align: center;
+     cursor: pointer;
+     font-family: 'Times New Roman', Times, serif;
+     background-color: antiquewhite;
+     box-shadow: 2px 2px 5px rgb(233, 183, 21);
+}
+     
+#rslt{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+button{
+  margin : 15px;
+  background-color: rgb(39, 227, 245);  
+  font-size: 1.3em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgb(5, 156, 167); 
+}
+
+button:active{
+  margin : 15px;
+  background-color: rgb(36, 95, 177);  
+  font-size: 1.3em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgb(5, 156, 167); 
+}
